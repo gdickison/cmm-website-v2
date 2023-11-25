@@ -12,7 +12,7 @@ export default function Hero () {
     }, [])
 
   return (
-    <main className='px-2 md:px-8 relative'>
+    <main className='px-2 md:px-8'>
       <div className="welcome-container bg-transparent h-[700px] 2xl:h-[800px] px-4">
         <img src={erb} className="hidden xl:block welcome-image welcome-image-1 rounded-md shadow-xl w-[350px] h-[550px]" alt="David Erb"/>
         <img src={orchestra} className="welcome-image welcome-image-2 rounded-md shadow-xl w-full xl:w-[350px] xl:h-[550px]" alt="Choir"/>
