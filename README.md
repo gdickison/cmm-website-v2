@@ -2,6 +2,14 @@
 
 - [Remix Docs](https://remix.run/docs)
 
+## Toolkit
+
+- Designed with AI assitance from tldraw's [Make Real](https://makereal.tldraw.com/) feature
+and [Replit](https://replit.com)
+- Styled with [Tailwind](https://tailwindcss.com)
+- Deployed to (TBD)
+- Design/Build by [Greg Dickison](https://github.com/gdickison/) of [Blue Canoe Web Development](https://bluecanoe.dev)
+
 ## Development
 
 From your terminal:
