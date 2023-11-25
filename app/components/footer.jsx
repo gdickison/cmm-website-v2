@@ -1,14 +1,14 @@
 export default function Footer () {
   return (
-    <footer class="bg-gray-200 p-4 text-center">
-      <div class="mb-4 font-bold text-xl">This is the footer</div>
+    <footer className="bg-gray-200 p-4 text-center">
+      <div className="mb-4 font-bold text-xl">This is the footer</div>
       <nav>
-        <ul class="flex justify-center space-x-6 font-barlow font-extralight text-3xl">
-          <li class="menu-link">Events</li>
-          <li class="menu-link">Watch</li>
-          <li class="menu-link">About</li>
-          <li class="menu-link">Donate</li>
-          <li class="menu-link">Connect</li>
+        <ul className="flex justify-center space-x-6 font-barlow font-extralight text-3xl">
+          <li className="menu-link">Events</li>
+          <li className="menu-link">Watch</li>
+          <li className="menu-link">About</li>
+          <li className="menu-link">Donate</li>
+          <li className="menu-link">Connect</li>
         </ul>
       </nav>
     </footer>
