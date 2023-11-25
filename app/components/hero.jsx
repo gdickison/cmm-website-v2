@@ -13,14 +13,14 @@ export default function Hero () {
 
   return (
     <main>
-      <div className="welcome-container">
-        <img src={erb} className="welcome-image welcome-image-1" alt="David Erb"/>
-        <img src={extras} className="welcome-image welcome-image-2" alt="Choir"/>
-        <img src={strings} className="welcome-image welcome-image-3" alt="String Section"/>
-        <img src={orchestra} className="welcome-image welcome-image-4" alt="Orchestra"/>
-        <div className="headline-div">
-          <h1 id="animated-title"></h1>
-          <h2 id="animated-subtitle">Musicum Moscow</h2>
+      <div className="welcome-container bg-transparent">
+        <img src={erb} className="md:block welcome-image welcome-image-1 rounded-md shadow-xl" alt="David Erb"/>
+        <img src={orchestra} className="welcome-image welcome-image-2 rounded-md shadow-xl" alt="Choir"/>
+        <img src={strings} className="md:block welcome-image welcome-image-3 rounded-md shadow-xl" alt="String Section"/>
+        <img src={extras} className="md:block welcome-image welcome-image-4 rounded-md shadow-xl" alt="Orchestra"/>
+        <div className="headline-div text-blue-50">
+          <h1 id="animated-title" className='font-mont md:text-8xl lg:text-[16rem]'></h1>
+          <h2 id="animated-subtitle" className='text-center text-[7rem] font-barlow font-light'><span className='text-[10rem]'>M</span>USICUM <span className='text-[10rem]'>M</span>OSCOW</h2>
         </div>
       </div>
     </main>

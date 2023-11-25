@@ -13,7 +13,7 @@ import Footer from "./components/footer";
 
 export const links = () => [
   { rel: "stylesheet", href: stylesheet },
-  { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400&Roboto:wght@400;700&family=Oswald:wght@400;700&family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap"}
+  { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400&Roboto:wght@400;700&family=Oswald:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap"}
 ];
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-blue-950">
         <Header/>
         <Outlet />
         <ScrollRestoration />

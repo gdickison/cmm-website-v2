@@ -41,7 +41,7 @@ main {
     transform: translateY(6rem);
   }
   to {
-    opacity: 0.6;
+    opacity: 0.8;
     transform: translateY(0);
   }
 }
@@ -59,7 +59,8 @@ main {
 
 #animated-title {
   text-align: center;
-  font-size: 18rem;
+  /* font-size: 16rem; */
+  line-height: 1;
 }
 
 #animated-title span {
@@ -97,14 +98,20 @@ main {
   }
 }
 
-.welcome-container h1 {
+/* .welcome-container h1 {
   line-height: 1;
-}
+} */
 
-.welcome-container h2 {
+/* .welcome-container h2 {
   text-align: center;
-  font-size: 8rem;
-}
+  font-size: 7rem;
+  font-family: 'Barlow Condensed';
+  font-weight: 300;
+} */
+
+/* .welcome-container h2 span {
+  font-size: 10rem;
+} */
 
 .welcome-image {
   width: 350px;
