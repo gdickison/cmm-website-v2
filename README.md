@@ -1,14 +1,19 @@
-# Welcome to Remix!
+# Welcome to Collegium Musicum Moscow!
 
-- [Remix Docs](https://remix.run/docs)
+- This site is version 2.0
 
 ## Toolkit
 
+- Built on [Remix](https://remix.run/docs)
 - Designed with AI assitance from tldraw's [Make Real](https://makereal.tldraw.com/) feature
 and [Replit](https://replit.com)
 - Styled with [Tailwind](https://tailwindcss.com)
 - Deployed to (TBD)
 - Design/Build by [Greg Dickison](https://github.com/gdickison/) of [Blue Canoe Web Development](https://bluecanoe.dev)
+
+## Dev Notes
+
+- This site uses a combination of Tailwind and vanilla CSS, because some things are just easier in vanilla
 
 ## Development
 
