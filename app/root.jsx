@@ -26,12 +26,16 @@ export default function App() {
         <Links />
       </head>
       <body className="bg-blue-950">
-        <Header/>
+        <header>
+          <Header/>
+        </header>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-        <Footer/>
+        <footer>
+          <Footer/>
+        </footer>
       </body>
     </html>
   );
