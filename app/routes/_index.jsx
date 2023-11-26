@@ -1,4 +1,7 @@
 import Hero from "../components/hero";
+import Events from "../components/Events";
+import { useLoaderData } from "@remix-run/react"
+import { getComingEvents } from "../utils"
 
 export const meta = () => {
   return [
@@ -9,7 +12,20 @@ export const meta = () => {
 
 
 export default function Index() {
+  const events = useLoaderData()
+
   return (
-    <Hero/>
+    <>
+      <Hero/>
+      <Events
+        events={events}
+      />
+    </>
   );
+}
+
+export async function loader () {
+  const events = await getComingEvents()
+  console.log('events', events)
+  return events
 }

@@ -13,7 +13,7 @@ export default function Header () {
       <nav>
         <ul className="hidden md:flex space-x-8 font-barlow text-[3.5vw] lg:text-[3vw] font-extralight text-blue-50">
           <li className="menu-link">
-            <NavLink to="/events" className="hover:underline underline-offset-8 decoration-[#8B0000]">Events</NavLink>
+            <NavLink to="/#events" className="hover:underline underline-offset-8 decoration-[#8B0000]">Events</NavLink>
           </li>
           <li className="menu-link">
             <NavLink to="#" className="hover:underline underline-offset-8 decoration-[#8B0000]">Watch</NavLink>

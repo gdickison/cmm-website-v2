@@ -1,0 +1,52 @@
+{"events": [
+  {
+    "id": 2,
+    "month": "January",
+    "date": "20th",
+    "title": "Family Concert",
+    "theme": "An Instrument Petting Zoo",
+    "location": "NSA North Campus, Moscow",
+    "time": "9:30 am",
+    "description": "Walk among the instruments!"
+  },
+  {
+    "id": 3,
+    "month": "February",
+    "date": "10th",
+    "title": "Choral Fest",
+    "theme": "Lift Up Your Heads",
+    "location": "Logos School Fieldhouse",
+    "time": "7:00 pm",
+    "description": null
+  },
+  {
+    "id": 4,
+    "month": "February",
+    "date": "25th",
+    "title": "Community Psalm & Hymn Singing",
+    "theme": "Songs for the Saints",
+    "location": "NSA North Campus, Moscow",
+    "time":"4:00 pm",
+    "description": null
+  },
+  {
+    "id": 5,
+    "month": "April",
+    "date": "5th",
+    "title":"Cantus Firmus Chorale Spring Concert",
+    "theme": "Who Said That?",
+    "location": "Nuart Theater, Moscow",
+    "time": "7:30 pm",
+    "description": null
+  },
+  {
+    "id": 6,
+    "month": "April",
+    "date": "26th",
+    "title":"NSA Spring Concert (w/Cantus Firmus Chorale)",
+    "theme": "Beethoven",
+    "location": "Moscow Church of the Nazerene",
+    "time": "7:30 pm",
+    "description": null
+  }
+]}
